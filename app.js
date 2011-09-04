@@ -3,6 +3,7 @@
  * Date: 03/09/11
  * Main application
  */
+Ext.require('Ext.container.Viewport');
 Ext.application({
     name: 'JiGoLo',
     launch: function() {
