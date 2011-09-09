@@ -17,9 +17,7 @@ Ext.application({
             layout: 'fit',
             items: [
                 {
-                    xtype: 'panel',
-                    title: 'JiGoLo',
-                    html : 'Première pierre à l\'édifice'
+                    xtype: 'userlist'
                 }
             ]
         });
