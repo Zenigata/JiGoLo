@@ -1,11 +1,12 @@
-/**
+﻿/**
  * User: Johan
  * Date: 04/09/11
  * View that edits the users
  */
-Ext.define('GO.view.user.List', {
+Ext.define('GO.view.user.Edit', {
     extend: 'Ext.window.Window',
     alias : 'widget.useredit',
+
     title : 'Edit Users',
     layout: 'fit',
     autoShow: true,

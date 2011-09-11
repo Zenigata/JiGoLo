@@ -15,11 +15,9 @@ Ext.application({
     launch: function() {
         Ext.create('Ext.container.Viewport', {
             layout: 'fit',
-            items: [
-                {
-                    xtype: 'userlist'
-                }
-            ]
+            items: {
+                xtype: 'userlist'
+            }
         });
     }
 });

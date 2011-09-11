@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "users": [
+        {"id": 1, "name": "Socrate", "email": "socrate@yopmail.com"},
+        {"id": 2, "name": "Platon", "email": "platon@yopmail.com"},
+        {"id": 3, "name": "Aristote", "email": "aristote@yopmail.com"}
+    ]
+}
