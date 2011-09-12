@@ -12,8 +12,8 @@ Ext.define('GO.view.user.List', {
 
     initComponent: function() {
         this.columns = [
-            {header: 'Name', dateIndex: 'name', flex: 1},
-            {header: 'Email', dateIndex: 'email', flex: 1}
+            {header: 'Name', dataIndex: 'name', flex: 1},
+            {header: 'Email', dataIndex: 'email', flex: 1}
         ];
 
         this.callParent(arguments);
